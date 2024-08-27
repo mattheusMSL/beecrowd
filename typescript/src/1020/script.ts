@@ -1,5 +1,5 @@
 import * as readline from "readline";
-import{ stdin as input, stdout as output} from "process" 
+import{ stdin as input, stdout as output} from "process";
 
 const readLine: readline.Interface = readline.createInterface({ input, output });
 
