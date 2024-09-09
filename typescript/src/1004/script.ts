@@ -1,5 +1,7 @@
-import * as readline from "readline"
-const readLine: readline.Interface = readline.createInterface({ input: process.stdin });
+import * as readline from "readline";
+import { stdin as input } from "process";
+
+let readLine: readline.Interface = readline.createInterface({ input });
 readLine.question("", (input: string) =>{
   input.trim();
   let lines: string[] = input.split(/\s+/);
