@@ -12,6 +12,6 @@ readLine.question("", (input: string) => {
   (t2 >= 1 || t2 <= 6) ? t2 -= 1 : t2;
   (t3 >= 1 || t3 <= 6) ? t3 -= 1 : t3;
   let tomadas: number = t1 + t2 + t3 + t4;
-  console.log(`${tomadas}`);
+  console.log(`${tomadas}`); 
   readLine.close();
 })
