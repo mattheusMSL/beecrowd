@@ -7,7 +7,7 @@ readLine.question("", (input: string) => {
 
    let lines:string[] = input.split(/\s+/);
 
-   let a : number = parseInt(lines[0]);
+   let a: number = parseInt(lines[0]);
    let b: number = parseInt(lines[1]);
    let c: number = parseInt(lines[2]);
    let d: number = parseInt(lines[3]);
