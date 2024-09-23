@@ -31,10 +31,5 @@ readLine.question("", (input: string) => {
     console.log(`R2 = ${R2.toFixed(5)}`);
 
   }
-  
- 
-
-
-
  readLine.close();
-})
+});
