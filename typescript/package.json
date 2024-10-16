@@ -1,5 +1,12 @@
 {
-  "dependencies": {
-    "@types/node": "^22.5.0"
-  }
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "tsx src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
