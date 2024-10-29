@@ -1,9 +1,8 @@
 import * as readline from "readline";
 import { stdin as input } from "node:process";
 
-const readLine: readline.Interface = readline.createInterface({ input });
-
-readLine.question("", (input:string) => {
+const readLine: readline.Interface =  readline.createInterface({ input });
+readLine.question("", (input: string) => {
   let lines: string[] = input.split(/\s+/);
   let numberOne: number = parseFloat(lines[0]);
   let numberTwo: number = parseFloat(lines[1]);
