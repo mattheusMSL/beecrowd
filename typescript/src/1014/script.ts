@@ -16,7 +16,7 @@ async function Consumption(){
 
 Consumption();
 
-/* const { readFile } = require("fs/promises");
+ const { readFile } = require("fs/promises");
 
 async function readInput(input:string): Promise<string> {
 
@@ -40,4 +40,4 @@ readInput("/dev/stdin")
     })
     .catch((error) => {
         console.log(`${error.message}`)
-    }); */
+    }); 
