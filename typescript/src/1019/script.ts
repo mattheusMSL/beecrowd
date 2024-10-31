@@ -22,6 +22,6 @@ console.log(`R1 = ${R1.toFixed(5)}`);
 console.log(`R2 = ${R2.toFixed(5)}`);
 }
 
-readline.close();
+rl.close();
 
 })
