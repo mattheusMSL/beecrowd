@@ -1,21 +1,25 @@
-#include <stdio.h>
+#include<stdio.h>
 
-void showConsonants() {
-    char consonants[] = "bcdfghjklmnpqrstvwxyz";
-    int lines = 1;
-    int positions = 0;
+void showConsonants();
 
-    while (consonants[positions] != '\0') {
-        for (int i = 0; i < lines && consonants[positions] != '\0'; i++) {
-            printf("%c", consonants[positions]);
-            positions++;
-        }
-        printf("\n");
-        lines++;
-    }
+int main(){
+   showConsonants();
+  return 0;
 }
 
-int main() {
-    showConsonants();
-    return 0;
+void showConsonants(){
+   int b = 'b';
+   int position = 0;
+   int lines = 1;
+   for(int i = b; i <= 'z'; i++){
+      if(i != 'a' && i != 'e' && i != 'i' && i != 'o' && i != 'u'){
+       printf("%c", i);
+       position++;
+       if(position == lines){
+         printf("\n");
+         lines++;
+         position = 0;
+       }
+      }
+   }
 }
