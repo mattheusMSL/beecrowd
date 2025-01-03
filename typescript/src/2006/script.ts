@@ -1,5 +1,4 @@
 import * as readline from "readline";
-
 const readLine: readline.Interface = readline.createInterface({ input : process.stdin});
 
 readLine.question("", (input: string) => {
