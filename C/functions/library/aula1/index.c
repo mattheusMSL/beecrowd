@@ -1,9 +1,10 @@
 #include<stdio.h>
+#include "helloworld.h"
 #include "somai.h"
 
 int main(){
   int a = 5, b = 3;
   int res = soma(a, b);
-  printf("%d\n", res);
-
+  printf("%d\n"   , res);
+  helloWorld();
 }
