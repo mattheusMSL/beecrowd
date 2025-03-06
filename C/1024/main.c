@@ -56,7 +56,7 @@ int main() {
     int numberOfLines;
     scanf("%d%*c", &numberOfLines);  // Lê o número de linhas
 
-    char pass[numberOfLines][C_MAX];  // Vetor de strings para armazenar as linhas
+    char pass[numberOfLines][C_MAX];  // Vetor/matriz de strings para armazenar as linhas
 
     // Lê as linhas de entrada
     setStrVecSize(pass, numberOfLines);
